@@ -3,15 +3,14 @@
 int main()
 {
   int ara[] = {1, 4, 6, 8, 9, 11, 14, 15, 20, 25, 33, 83, 87, 97, 99, 100};
-  int low_indx = 0;
-  int high_indx = 15;
-  int mid_indx;
-  int num = 97;
+  int low_indx = 0;  // =
+  int high_indx = 2; // =
+  int mid_indx;      // =
+  int num = 6;       // =
 
   while (low_indx <= high_indx)
   {
     mid_indx = (low_indx + high_indx) / 2;
-
     if (num == ara[mid_indx])
     {
       break;
